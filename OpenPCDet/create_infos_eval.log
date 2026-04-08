@@ -1,0 +1,16 @@
+Traceback (most recent call last):
+  File "<frozen runpy>", line 189, in _run_module_as_main
+  File "<frozen runpy>", line 112, in _get_module_details
+  File "/mnt/backup/dassault/ysf/airbus_hackathon/OpenPCDet/pcdet/datasets/__init__.py", line 8, in <module>
+    from .dataset import DatasetTemplate
+  File "/mnt/backup/dassault/ysf/airbus_hackathon/OpenPCDet/pcdet/datasets/dataset.py", line 9, in <module>
+    from .augmentor.data_augmentor import DataAugmentor
+  File "/mnt/backup/dassault/ysf/airbus_hackathon/OpenPCDet/pcdet/datasets/augmentor/data_augmentor.py", line 7, in <module>
+    from . import augmentor_utils, database_sampler
+  File "/mnt/backup/dassault/ysf/airbus_hackathon/OpenPCDet/pcdet/datasets/augmentor/augmentor_utils.py", line 5, in <module>
+    from ...utils import box_utils
+  File "/mnt/backup/dassault/ysf/airbus_hackathon/OpenPCDet/pcdet/utils/box_utils.py", line 7, in <module>
+    from ..ops.roiaware_pool3d import roiaware_pool3d_utils
+  File "/mnt/backup/dassault/ysf/airbus_hackathon/OpenPCDet/pcdet/ops/roiaware_pool3d/roiaware_pool3d_utils.py", line 6, in <module>
+    from . import roiaware_pool3d_cuda
+ImportError: cannot import name 'roiaware_pool3d_cuda' from 'pcdet.ops.roiaware_pool3d' (/mnt/backup/dassault/ysf/airbus_hackathon/OpenPCDet/pcdet/ops/roiaware_pool3d/__init__.py)
